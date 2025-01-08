@@ -10,9 +10,14 @@
     <div class="container">
         <h1 class="title">Pomodoro Timer</h1>
         <p class="timer" id="timer">50:00</p>
+        <div class="custom-timer">
+            <input type="number" id="custom-time" min="1" max="90" value="25" placeholder="Enter minutes (1-90)">
+            <button id="set-custom">Set Custom Time</button>
+        </div>
             <button id="start">Start</button>
             <button id="stop">Stop</button>
             <button id="reset">Reset</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
